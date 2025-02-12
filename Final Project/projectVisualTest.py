@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Load the CSV file (replace 'your_file.csv' with the actual filename)
+# Load the CSV file
 df = pd.read_csv('/Users/kevintan/Downloads/CS506/Final Project/T_ONTIME_REPORTING.csv')
 
 # Filter for American Airlines (AA) flights and delays greater than 0
